@@ -29,14 +29,14 @@ Una serie de paso a paso que te dice lo que debes ejecutar para tener un entorno
 
 Luego de instalar todos los prerequisitos inciamos con la configuracion del ambiente local 
 
-###Paso 1: Configuracion del docker para alojar postgres en un contendor y poder acceder a la base de datos facilmente 
+### Paso 1: Configuracion del docker para alojar postgres en un contendor y poder acceder a la base de datos facilmente 
 
 [Guia paso a paso intalacion de postgres y pgAdmin en docker](https://dev.to/shree_j/how-to-install-and-run-psql-using-docker-41j2)
 
-recuerda cambiar la url y las credenciales que  creaste en el alojamiento de postgres en docker , los cambio se realizan en el archivo application.propertis
+recuerda cambiar la url y las credenciales que creaste para postgres, los cambio se realizan en el archivo application.propertis
 
 
-###Paso 2: luego en el directorio del proyecto (root) abriremos nuestra terminal preferida y ejecutaremos el siguiente comando para la ejecucion del proyecto
+### Paso 2: luego en el directorio del proyecto (root) abriremos nuestra terminal preferida y ejecutaremos el siguiente comando para la ejecucion del proyecto
 
 ```
 Para windows
