@@ -58,5 +58,5 @@ Asi finalizamos la instalacion del ambiente local para el proyecto ahora puedes 
 
 ## Autores ✒️
 
-* **Andrés Jhoany Londoño Toro ** - *Trabajo Inicial*  
+* **Jhoany Londoño Toro **   
 
