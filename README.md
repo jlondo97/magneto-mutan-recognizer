@@ -54,8 +54,8 @@ Asi finalizamos la instalacion del ambiente local para el proyecto ahora puedes 
 la aplicacion se encuentra alojada en dos servicios cloud , la base de datos postgres se encunetra alojada en Google platform y la aplicacion en una VM en azure y este es link para el consumo de los servicios
 mutantreconaizer.centralus.cloudapp.azure.com:8080 
   podremos consumir los servicios expuestos de la siguiente forma:
-  * mutantreconaizer.centralus.cloudapp.azure.com:8080/mutant
-  * mutantreconaizer.centralus.cloudapp.azure.com:8080/stats
+  * POST  mutantreconaizer.centralus.cloudapp.azure.com:8080/mutant  
+  * GET   mutantreconaizer.centralus.cloudapp.azure.com:8080/stats  
 
 
 ## Construido con 🛠️
