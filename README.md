@@ -15,6 +15,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 Necesitas lo siguiente
 
 
+
 * [Gradle 7.0 ](https://gradle.org/) - Manejador de dependencias
 * [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)-Lenguaje programacion y version
 * [Postgres](https://www.postgresql.org/)-Motor Base de datos
@@ -47,6 +48,14 @@ $./gradleW bootRun
 ```
 
 Asi finalizamos la instalacion del ambiente local para el proyecto ahora puedes usar los servicios expuesto <url>:<puerto>/<servicio> te recomiendo usar postman para generar las peticiones 
+
+## Despliegue 
+
+la aplicacion se encuentra alojada en dos servicios cloud , la base de datos postgres se encunetra alojada en Google platform y la aplicacion en una VM en azure y este es link para el consumo de los servicios
+mutantreconaizer.centralus.cloudapp.azure.com:8080 
+  podremos consumir los servicios expuestos de la siguiente forma:
+  * mutantreconaizer.centralus.cloudapp.azure.com:8080/mutant
+  * mutantreconaizer.centralus.cloudapp.azure.com:8080/stats
 
 
 ## Construido con 🛠️
